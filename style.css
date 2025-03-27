@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+	height: 100vh;
+	overflow: hidden;
+	background: #eae8b0;
+}
+svg,
+image {
+	width: 100%;
+	height: 100%;
+}
+rect {
+	x: -100%;
+	y: -100%;
+	width: 300%;
+	height: 300%;
+}
+svg {
+	mix-blend-mode: exclusion;
+	fill: #fff;
+}
+#base {
+	mask: url(#mask);
+}
